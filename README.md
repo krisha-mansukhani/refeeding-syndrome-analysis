@@ -48,10 +48,10 @@ This project investigates **refeeding syndrome (RFS)** — a potentially life-th
 
 ------------------------------------------------------------------------
 
-## 📊 Methods
+## Methods
 
 | Step | Description |
-|-----------------------|------------------------------------------------|
+|----|----|
 | **Data extraction** | EHR query for demographics, WFL/BMI z-scores, feeding route, LOS, labs (K, Mg, Phos). |
 | **Cleaning** | Removed incomplete z-scores/labs; validated malnutrition codes vs dietitian diagnosis. |
 | **Statistics** | Wilcoxon rank-sum, Fisher’s exact, χ² tests; α = 0.05. |
@@ -60,7 +60,7 @@ This project investigates **refeeding syndrome (RFS)** — a potentially life-th
 
 ------------------------------------------------------------------------
 
-## 📈 Key Results
+## Key Results
 
 -   **Incidence:** 4.2% (95% CI: 2.7–6.2%)\
 -   **Age:** RFS patients were older (16 vs 5 months; *p* = 0.0005)\
@@ -71,7 +71,7 @@ This project investigates **refeeding syndrome (RFS)** — a potentially life-th
 
 ------------------------------------------------------------------------
 
-## 🎨 Visuals (from manuscript)
+## Visuals (from manuscript)
 
 <p align="center">
 
@@ -90,6 +90,6 @@ Clinical data cleaning • Non-parametric tests • Reproducible reporting • P
 ## 🔗 Citation
 
 **Refeeding Syndrome: Incidence, Characteristics, & Outcomes in Malnourished Hospitalized Children**\
-Phoenix Children’s Hospital \| Presented at **PAS 2025** (Honolulu, Hawaii)
+Phoenix Children’s Hospital \| Presented at the [**Pediatric Academic Societies (PAS) Meeting 2025**](https://2025.pas-meeting.org/agenda.asp?startdate=4/25/2025&enddate=4/25/2025&BCFO=M&pfp=days&fa=&fb=&fc=&fd=), Hawaii, United States.
 
 ------------------------------------------------------------------------
