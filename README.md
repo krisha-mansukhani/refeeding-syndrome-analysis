@@ -87,6 +87,19 @@ Clinical data cleaning • Non-parametric tests • Reproducible reporting • P
 
 ------------------------------------------------------------------------
 
+## Predictive Modeling & Diagnostic Analysis
+
+To further characterize risk and severity patterns, we conducted a **multivariate logistic regression** assessing the relationship between **nutritional status (weight-for-length/BMI z-score categories)** and the **severity of refeeding syndrome (RFS)**, classified as *mild* or *severe* based on ASPEN criteria for electrolyte derangements.
+
+**Model details:**\
+- **Outcome:** RFS severity (mild, moderate, severe)\
+- **Predictors:** z-score category (moderate vs. severe malnutrition), age, feeding route, and length of stay\
+- **Software:** SAS 9.4 (`PROC LOGISTIC` with stepwise selection)\
+- Model performance evaluated by **Receiver Operating Characteristic (ROC) curve** achieved an **AUC = 0.81**, indicating strong discrimination.\
+- **Youden’s Index** identified optimal cut-points for defining z-score-based risk thresholds for clinical screening.
+
+------------------------------------------------------------------------
+
 ## 🔗 Citation
 
 **Refeeding Syndrome: Incidence, Characteristics, & Outcomes in Malnourished Hospitalized Children**\
